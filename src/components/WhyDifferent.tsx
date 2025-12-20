@@ -23,17 +23,17 @@ const WhyDifferent = () => {
   ];
 
   return (
-    <section className="relative section-padding bg-charcoal">
+    <section className="relative section-padding bg-background">
       <div className="section-container">
         {/* Section header */}
         <div className="text-center mb-16 lg:mb-20">
-          <p className="text-primary font-medium tracking-wide uppercase text-sm mb-4">
+          <p className="text-primary font-semibold tracking-wide uppercase text-sm mb-4">
             Why ISTH
           </p>
-          <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-semibold text-foreground mb-6">
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6">
             We're Not Like The Others
           </h2>
-          <div className="divider-gold mx-auto" />
+          <div className="divider-blue mx-auto" />
         </div>
 
         {/* Contrast blocks */}
@@ -41,12 +41,12 @@ const WhyDifferent = () => {
           {contrasts.map((item, index) => (
             <div
               key={index}
-              className="group grid md:grid-cols-[1fr,auto,1fr] gap-4 md:gap-8 items-center p-6 lg:p-8 rounded-lg border border-border/50 bg-charcoal-light/30 hover:border-primary/20 transition-all duration-500"
+              className="group grid md:grid-cols-[1fr,auto,1fr] gap-4 md:gap-8 items-center p-6 lg:p-8 rounded-xl border border-border bg-card hover:border-primary/20 hover:shadow-card transition-all duration-500"
             >
               {/* Not this */}
               <div className="text-center md:text-right">
                 <p className="text-sm text-muted-foreground uppercase tracking-wide mb-1">Not</p>
-                <p className="text-xl lg:text-2xl font-display text-muted-foreground line-through decoration-muted-foreground/30">
+                <p className="text-xl lg:text-2xl text-muted-foreground line-through decoration-muted-foreground/30">
                   {item.not}
                 </p>
               </div>
@@ -59,7 +59,7 @@ const WhyDifferent = () => {
               {/* But this */}
               <div className="text-center md:text-left">
                 <p className="text-sm text-primary uppercase tracking-wide mb-1">Instead</p>
-                <p className="text-xl lg:text-2xl font-display text-foreground font-semibold">
+                <p className="text-xl lg:text-2xl text-foreground font-bold">
                   {item.instead}
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">{item.detail}</p>

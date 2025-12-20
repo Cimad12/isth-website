@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['Playfair Display', 'Georgia', 'serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Montserrat', 'system-ui', 'sans-serif'],
+        display: ['Montserrat', 'system-ui', 'sans-serif'],
+        body: ['Montserrat', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -51,20 +52,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        gold: {
-          DEFAULT: "hsl(var(--gold))",
-          light: "hsl(var(--gold-light))",
-          dark: "hsl(var(--gold-dark))",
+        blue: {
+          DEFAULT: "hsl(var(--blue))",
+          light: "hsl(var(--blue-light))",
+          dark: "hsl(var(--blue-dark))",
         },
-        charcoal: {
-          DEFAULT: "hsl(var(--charcoal))",
-          light: "hsl(var(--charcoal-light))",
-          lighter: "hsl(var(--charcoal-lighter))",
+        cream: {
+          DEFAULT: "hsl(var(--cream))",
+          dark: "hsl(var(--cream-dark))",
         },
-        ivory: {
-          DEFAULT: "hsl(var(--ivory))",
-          muted: "hsl(var(--ivory-muted))",
-          dim: "hsl(var(--ivory-dim))",
+        dark: {
+          DEFAULT: "hsl(var(--dark))",
+          muted: "hsl(var(--dark-muted))",
+        },
+        gray: {
+          DEFAULT: "hsl(var(--gray))",
+          light: "hsl(var(--gray-light))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -107,14 +110,6 @@ export default {
           "0%": { opacity: "0", transform: "scale(0.95)" },
           "100%": { opacity: "1", transform: "scale(1)" },
         },
-        "glow-pulse": {
-          "0%, 100%": { opacity: "0.4" },
-          "50%": { opacity: "0.8" },
-        },
-        "line-grow": {
-          "0%": { width: "0" },
-          "100%": { width: "100%" },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -123,8 +118,6 @@ export default {
         "fade-in-slow": "fade-in-slow 1.2s ease-out forwards",
         "slide-up": "slide-up 0.8s ease-out forwards",
         "scale-in": "scale-in 0.6s ease-out forwards",
-        "glow-pulse": "glow-pulse 3s ease-in-out infinite",
-        "line-grow": "line-grow 1s ease-out forwards",
       },
     },
   },

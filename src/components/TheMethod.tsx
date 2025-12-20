@@ -25,23 +25,23 @@ const TheMethod = () => {
   ];
 
   return (
-    <section id="method" className="relative section-padding bg-charcoal-light overflow-hidden">
+    <section id="method" className="relative section-padding bg-card overflow-hidden">
       {/* Background element */}
       <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-primary/3 rounded-full blur-[150px] -translate-y-1/2 translate-x-1/2" />
 
       <div className="relative z-10 section-container">
         {/* Section header */}
         <div className="text-center mb-16 lg:mb-20">
-          <p className="text-primary font-medium tracking-wide uppercase text-sm mb-4">
+          <p className="text-primary font-semibold tracking-wide uppercase text-sm mb-4">
             The ISTH Method
           </p>
-          <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-semibold text-foreground mb-6">
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6">
             A System Designed to Sell
           </h2>
-          <p className="max-w-2xl mx-auto text-lg text-ivory-muted mb-6">
-            Not run ads. Not generate leads. <span className="text-foreground font-medium">Sell real estate.</span>
+          <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-6">
+            Not run ads. Not generate leads. <span className="text-foreground font-semibold">Sell real estate.</span>
           </p>
-          <div className="divider-gold-lg mx-auto" />
+          <div className="divider-blue-lg mx-auto" />
         </div>
 
         {/* Pillars grid */}
@@ -49,17 +49,17 @@ const TheMethod = () => {
           {pillars.map((pillar, index) => (
             <div
               key={index}
-              className="group relative p-8 lg:p-10 rounded-lg border border-border bg-charcoal/80 hover:border-primary/40 transition-all duration-500"
+              className="group relative p-8 lg:p-10 rounded-xl border border-border bg-background hover:border-primary/40 hover:shadow-card transition-all duration-500"
             >
               {/* Icon */}
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors duration-500">
                 <pillar.icon className="w-6 h-6 text-primary" />
               </div>
 
-              <h3 className="font-display text-xl lg:text-2xl font-semibold text-foreground mb-4">
+              <h3 className="text-xl lg:text-2xl font-bold text-foreground mb-4">
                 {pillar.title}
               </h3>
-              <p className="text-ivory-muted leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed">
                 {pillar.description}
               </p>
             </div>
