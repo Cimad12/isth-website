@@ -20,19 +20,19 @@ const Results = () => {
   ];
 
   return (
-    <section className="relative section-padding bg-charcoal-light">
+    <section className="relative section-padding bg-card">
       <div className="section-container">
         {/* Section header */}
         <div className="text-center mb-16 lg:mb-20">
-          <p className="text-primary font-medium tracking-wide uppercase text-sm mb-4">
+          <p className="text-primary font-semibold tracking-wide uppercase text-sm mb-4">
             Real Outcomes
           </p>
-          <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-semibold text-foreground mb-6">
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6">
             What Changes When
             <br />
-            <span className="text-gradient-gold">The System Works</span>
+            <span className="text-gradient-blue">The System Works</span>
           </h2>
-          <div className="divider-gold mx-auto" />
+          <div className="divider-blue mx-auto" />
         </div>
 
         {/* Outcomes */}
@@ -42,13 +42,13 @@ const Results = () => {
               key={index}
               className="text-center lg:text-left"
             >
-              <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-6 mx-auto lg:mx-0">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 mx-auto lg:mx-0">
                 <outcome.icon className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-display text-xl lg:text-2xl font-semibold text-foreground mb-4">
+              <h3 className="text-xl lg:text-2xl font-bold text-foreground mb-4">
                 {outcome.title}
               </h3>
-              <p className="text-ivory-muted leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed">
                 {outcome.description}
               </p>
             </div>

@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="bg-charcoal border-t border-border/50">
+    <footer className="bg-background border-t border-border/50">
       <div className="section-container py-12 lg:py-16">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <span className="font-display text-2xl font-semibold text-foreground tracking-tight">
+            <span className="text-2xl font-bold text-foreground tracking-tight">
               ISTH
             </span>
           </div>
