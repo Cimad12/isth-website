@@ -10,10 +10,16 @@ const Footer = () => {
             </span>
           </div>
 
-          {/* Tagline */}
-          <p className="text-muted-foreground text-sm text-center lg:text-left">
-            Demand Engineering for Real Estate.
-          </p>
+          {/* Contact Emails */}
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-sm">
+            <a href="mailto:majlis@istihwad.com" className="text-muted-foreground hover:text-primary transition-colors">
+              majlis@istihwad.com
+            </a>
+            <span className="hidden sm:inline text-muted-foreground">|</span>
+            <a href="mailto:contact@istihwad.com" className="text-muted-foreground hover:text-primary transition-colors">
+              contact@istihwad.com
+            </a>
+          </div>
 
           {/* Copyright */}
           <p className="text-muted-foreground text-sm">
