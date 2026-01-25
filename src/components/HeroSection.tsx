@@ -33,7 +33,7 @@ const HeroSection = () => {
 
           {/* Headline */}
           <h1 
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-[1.1] tracking-tight opacity-0 animate-slide-up"
+            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.1] tracking-tight opacity-0 animate-slide-up"
             style={{ animationDelay: "0.2s" }}
           >
             We Don't Run Ads.
