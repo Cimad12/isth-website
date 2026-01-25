@@ -61,7 +61,7 @@ const HeroSection = () => {
                 <ArrowRight className="w-5 h-5" />
               </a>
             </Button>
-            <Button variant="heroOutline" size="xl" asChild>
+            <Button variant="heroOutline" size="xl" className="border-white text-white hover:bg-white/10" asChild>
               <a href="#method">
                 See How It Works
               </a>
