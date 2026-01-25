@@ -43,7 +43,7 @@ const HeroSection = () => {
 
           {/* Sub-headline */}
           <p 
-            className="max-w-2xl mx-auto text-lg lg:text-xl text-muted-foreground leading-relaxed opacity-0 animate-fade-in"
+            className="max-w-2xl mx-auto text-lg lg:text-xl text-white/90 leading-relaxed opacity-0 animate-fade-in"
             style={{ animationDelay: "0.4s" }}
           >
             ISTH helps real estate developers and agencies build predictable deal flow 
