@@ -12,24 +12,24 @@ const FinalCTA = () => {
         <div className="max-w-3xl mx-auto text-center">
           {/* Pre-headline */}
           <p className="text-primary font-semibold tracking-wide uppercase text-sm mb-6">
-            Ready to Move Forward?
+            Ready to Scale?
           </p>
 
           {/* Main headline */}
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6 leading-tight">
-            This Is Not a Sales Call
+            Let's Talk Growth
           </h2>
 
           {/* Sub-headline */}
           <p className="text-xl lg:text-2xl text-muted-foreground mb-4">
-            It's a qualification conversation.
+            No pitch decks. No pressure. Just strategy.
           </p>
 
           {/* Description */}
           <p className="text-muted-foreground leading-relaxed mb-10 max-w-xl mx-auto">
-            We'll explore your situation, understand your goals, and determine 
-            if ISTH is the right fit for your project. No pressure. No pitch decks. 
-            Just a direct conversation between professionals.
+            We'll explore your business, understand your goals, and determine 
+            if ISTH is the right fit to help you scale. A direct conversation 
+            between professionals who value results over fluff.
           </p>
 
           {/* Divider */}
@@ -38,14 +38,14 @@ const FinalCTA = () => {
           {/* CTA Button */}
           <Button variant="hero" size="xl" asChild>
             <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
-              Book a Private Strategy Call
+              Book Your Growth Call
               <ArrowRight className="w-5 h-5" />
             </a>
           </Button>
 
           {/* Qualifier */}
           <p className="text-sm text-muted-foreground mt-8">
-            Limited availability. We only take on projects we can commit to fully.
+            Limited spots. We only partner with businesses we can truly help scale.
           </p>
         </div>
       </div>
