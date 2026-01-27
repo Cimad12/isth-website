@@ -4,18 +4,18 @@ const Results = () => {
   const outcomes = [
     {
       icon: Building2,
-      title: "Projects That Were Stuck",
-      description: "Developments with months of unsold inventory finally moving units. Properties that sat for quarters now closing in weeks.",
+      title: "Businesses That Were Stuck",
+      description: "Companies with flat revenue finally breaking through. Stagnant pipelines now overflowing with qualified opportunities.",
     },
     {
       icon: Users,
-      title: "Agencies That Were Spinning",
-      description: "Teams drowning in low-intent leads now working with pre-qualified buyers who are ready to make decisions.",
+      title: "Teams That Were Overwhelmed",
+      description: "Sales teams buried in admin work now focused on what matters—closing deals and building relationships.",
     },
     {
       icon: BadgeCheck,
-      title: "Sales Teams That Were Burning Out",
-      description: "Reps who wasted 80% of their time on tire-kickers now focused on high-probability closes.",
+      title: "Founders Who Were Burning Out",
+      description: "Entrepreneurs working 80-hour weeks now running efficient operations that scale without them.",
     },
   ];
 
@@ -58,8 +58,8 @@ const Results = () => {
         {/* Credibility statement */}
         <div className="mt-16 lg:mt-20 pt-12 border-t border-border/50 text-center">
           <p className="text-muted-foreground text-sm max-w-2xl mx-auto">
-            We don't share client names publicly. We don't need to prove ourselves with logos. 
-            <span className="text-foreground"> Our results speak in private conversations with decision-makers like you.</span>
+            We don't share client names publicly. Our results speak in private conversations with decision-makers like you.
+            <span className="text-foreground"> The proof is in the pipeline.</span>
           </p>
         </div>
       </div>

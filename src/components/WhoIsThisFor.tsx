@@ -2,17 +2,17 @@ import { Check, X } from "lucide-react";
 
 const WhoIsThisFor = () => {
   const forYou = [
-    "Real estate developers with inventory that needs to move",
-    "Agencies generating leads but struggling to close",
-    "Sales teams drowning in unqualified inquiries",
-    "Decision-makers ready to invest in a system, not experiments",
+    "Business owners tired of inconsistent revenue",
+    "Founders ready to scale with proven systems",
+    "Teams drowning in manual processes that AI could handle",
+    "Decision-makers who want results, not experiments",
   ];
 
   const notForYou = [
     "Looking for the cheapest option",
-    "Want to 'just run some ads'",
-    "Not ready to commit to a serious process",
-    "Expecting overnight miracles",
+    "Want quick fixes without real change",
+    "Not ready to invest in serious growth",
+    "Expecting overnight success without effort",
   ];
 
   return (

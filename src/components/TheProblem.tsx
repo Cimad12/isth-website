@@ -1,20 +1,20 @@
 const TheProblem = () => {
   const problems = [
     {
-      title: "Unsold Inventory",
-      description: "Properties sit on the market while carrying costs eat into margins.",
+      title: "Inconsistent Revenue",
+      description: "One month you're crushing it, the next you're scrambling. No system means no predictability.",
     },
     {
-      title: "Low-Quality Leads",
-      description: "Marketing brings volume, not buyers. Your sales team wastes time on tire-kickers.",
+      title: "Wasted Time on Low-Quality Leads",
+      description: "Your team spends hours chasing prospects who were never going to buy.",
     },
     {
-      title: "Broken Sales Flow",
-      description: "Leads fall through cracks. Follow-ups are inconsistent. Deals die in the pipeline.",
+      title: "Manual Processes Killing Growth",
+      description: "You're still doing things by hand that AI could automate in seconds.",
     },
     {
-      title: "Agencies Focused on Metrics",
-      description: "They celebrate clicks and impressions. You need closings.",
+      title: "Marketing That Doesn't Convert",
+      description: "Agencies promise clicks and impressions. You need clients and cash flow.",
     },
   ];
 
@@ -30,9 +30,9 @@ const TheProblem = () => {
             The Real Problem
           </p>
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6 leading-tight">
-            The Industry Is Optimizing
+            Your Business Is Working Hard
             <br />
-            <span className="text-muted-foreground">For the Wrong Things</span>
+            <span className="text-muted-foreground">But Not Smart Enough</span>
           </h2>
           <div className="divider-blue" />
         </div>
@@ -62,9 +62,9 @@ const TheProblem = () => {
         {/* Bottom statement */}
         <div className="mt-16 lg:mt-20 text-center">
           <p className="text-xl lg:text-2xl text-muted-foreground italic">
-            "This isn't a marketing problem.
+            "You don't have a hustle problem.
             <br />
-            <span className="text-foreground not-italic font-bold">It's a sales system problem."</span>
+            <span className="text-foreground not-italic font-bold">You have a systems problem."</span>
           </p>
         </div>
       </div>

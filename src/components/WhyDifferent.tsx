@@ -1,24 +1,24 @@
 const WhyDifferent = () => {
   const contrasts = [
     {
-      not: "An Agency",
-      instead: "A Growth Partner",
-      detail: "We're invested in your outcomes, not just deliverables.",
+      not: "Another Agency",
+      instead: "Your Growth Partner",
+      detail: "We're invested in your revenue, not just deliverables.",
     },
     {
-      not: "Software",
-      instead: "A System",
-      detail: "Technology serves the strategy, not the other way around.",
+      not: "Generic Software",
+      instead: "Custom AI Systems",
+      detail: "Technology built around your business, not the other way around.",
     },
     {
-      not: "Freelancers",
-      instead: "Specialists",
-      detail: "Real estate sales. That's what we know. That's what we do.",
+      not: "Freelancer Chaos",
+      instead: "Elite Specialists",
+      detail: "A focused team that understands business growth and AI.",
     },
     {
-      not: "Campaign Managers",
-      instead: "Revenue Engineers",
-      detail: "We measure success in closed deals, not vanity metrics.",
+      not: "Vanity Metrics",
+      instead: "Revenue Outcomes",
+      detail: "We measure success in clients acquired and deals closed.",
     },
   ];
 

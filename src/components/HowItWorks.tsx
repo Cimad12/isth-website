@@ -2,18 +2,18 @@ const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Strategy Call",
-      description: "A focused conversation to understand your situation, goals, and whether we're the right fit for each other.",
+      title: "Discovery Call",
+      description: "A focused conversation to understand your business, challenges, and growth goals. We'll determine if we're the right fit.",
     },
     {
       number: "02",
-      title: "System Design",
-      description: "We architect a custom solution based on your market, inventory, and sales infrastructure.",
+      title: "Custom Strategy",
+      description: "We design an AI-powered system tailored to your market, audience, and sales process.",
     },
     {
       number: "03",
-      title: "Execution & Optimization",
-      description: "We implement, monitor, and continuously refine the system until it produces predictable results.",
+      title: "Build & Optimize",
+      description: "We implement, monitor, and continuously refine until the system delivers predictable, scalable results.",
     },
   ];
 
@@ -29,10 +29,10 @@ const HowItWorks = () => {
             The Process
           </p>
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6">
-            How Engagement Works
+            How We Work Together
           </h2>
           <p className="max-w-xl mx-auto text-muted-foreground">
-            Structured. Selective. Premium.
+            Simple. Strategic. Results-Driven.
           </p>
           <div className="divider-blue mx-auto mt-6" />
         </div>

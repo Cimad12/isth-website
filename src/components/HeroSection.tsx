@@ -24,11 +24,11 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Eyebrow */}
           <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card text-sm text-muted-foreground opacity-0 animate-fade-in"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 bg-white/10 text-sm text-white/90 opacity-0 animate-fade-in"
             style={{ animationDelay: "0.1s" }}
           >
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            For serious real estate players only
+            AI-Powered Growth for Ambitious Businesses
           </div>
 
           {/* Headline */}
@@ -36,9 +36,9 @@ const HeroSection = () => {
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.1] tracking-tight opacity-0 animate-slide-up"
             style={{ animationDelay: "0.2s" }}
           >
-            We Don't Run Ads.
+            We Don't Chase Leads.
             <br />
-            <span className="text-gradient-blue">We Engineer Sales.</span>
+            <span className="text-gradient-blue">We Build Revenue Machines.</span>
           </h1>
 
           {/* Sub-headline */}
@@ -46,8 +46,8 @@ const HeroSection = () => {
             className="max-w-2xl mx-auto text-lg lg:text-xl text-white/90 leading-relaxed opacity-0 animate-fade-in"
             style={{ animationDelay: "0.4s" }}
           >
-            ISTH helps real estate developers and agencies build predictable deal flow 
-            through demand engineering, lead control, and sales optimization.
+            ISTH combines cutting-edge AI with proven sales systems to help businesses 
+            attract high-value clients, close more deals, and scale predictably.
           </p>
 
           {/* CTAs */}
@@ -57,23 +57,23 @@ const HeroSection = () => {
           >
             <Button variant="hero" size="xl" asChild>
               <a href="#book-call">
-                Book a Strategy Call
+                Book a Growth Call
                 <ArrowRight className="w-5 h-5" />
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" className="border-white text-white hover:bg-white/10" asChild>
               <a href="#method">
-                See How It Works
+                See Our System
               </a>
             </Button>
           </div>
 
           {/* Trust indicator */}
           <p 
-            className="text-sm text-muted-foreground pt-8 opacity-0 animate-fade-in"
+            className="text-sm text-white/70 pt-8 opacity-0 animate-fade-in"
             style={{ animationDelay: "0.8s" }}
           >
-            This is not for everyone. Scroll to see if it's for you.
+            Built for businesses ready to dominate. Not for everyone.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ const HeroSection = () => {
           className="absolute bottom-12 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in"
           style={{ animationDelay: "1s" }}
         >
-          <a href="#who-is-this-for" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+          <a href="#who-is-this-for" className="flex flex-col items-center gap-2 text-white/60 hover:text-white transition-colors">
             <ChevronDown className="w-5 h-5 animate-bounce" />
           </a>
         </div>

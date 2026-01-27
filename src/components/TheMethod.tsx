@@ -4,23 +4,23 @@ const TheMethod = () => {
   const pillars = [
     {
       icon: Target,
-      title: "Demand Engineering",
-      description: "We don't chase leads. We create market conditions where qualified buyers come to you.",
+      title: "AI-Powered Lead Generation",
+      description: "We deploy intelligent systems that attract and qualify high-value prospects automatically.",
     },
     {
       icon: Filter,
-      title: "Lead Control",
-      description: "Systematic qualification that ensures your sales team only speaks to serious prospects.",
+      title: "Smart Client Acquisition",
+      description: "Every lead is scored, nurtured, and delivered to your team ready to buy.",
     },
     {
       icon: TrendingUp,
-      title: "Sales Flow Optimization",
-      description: "Every touchpoint engineered to move prospects toward a decision.",
+      title: "Sales Process Automation",
+      description: "AI handles the repetitive work so your team focuses on closing deals.",
     },
     {
       icon: Zap,
-      title: "Predictable Deal Flow",
-      description: "A repeatable system that turns market activity into closed transactions.",
+      title: "Predictable Growth Engine",
+      description: "A system that turns marketing spend into consistent, scalable revenue.",
     },
   ];
 
@@ -33,13 +33,13 @@ const TheMethod = () => {
         {/* Section header */}
         <div className="text-center mb-16 lg:mb-20">
           <p className="text-primary font-semibold tracking-wide uppercase text-sm mb-4">
-            The ISTH Method
+            The ISTH System
           </p>
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6">
-            A System Designed to Sell
+            AI + Sales = Unstoppable Growth
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-6">
-            Not run ads. Not generate leads. <span className="text-foreground font-semibold">Sell real estate.</span>
+            Not more ads. Not more hustle. <span className="text-foreground font-semibold">Smarter systems that sell.</span>
           </p>
           <div className="divider-blue-lg mx-auto" />
         </div>
@@ -70,7 +70,7 @@ const TheMethod = () => {
         <div className="mt-16 lg:mt-20 text-center">
           <div className="inline-block px-6 py-3 rounded-full border border-primary/30 bg-primary/5">
             <p className="text-foreground font-medium">
-              We don't do everything. <span className="text-primary">We do what moves sales.</span>
+              We don't do everything. <span className="text-primary">We do what drives revenue.</span>
             </p>
           </div>
         </div>
